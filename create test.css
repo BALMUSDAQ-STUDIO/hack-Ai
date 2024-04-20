@@ -1,0 +1,220 @@
+html {
+    box-sizing: border-box;
+    --primary-text-color: #fff;
+    --primary-text-decoration : rgba(219, 49, 56, 1);
+    --primary-background-color: rgba(20, 20, 20, 1);
+    background-color: var(--primary-background-color);
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: var(--primary-background-color);
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    height: 75px;
+  }
+  .input > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .value {
+    letter-spacing: 7px;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 10px 0 10px;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #21262c;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #1a1f24;
+    outline: none;
+  }
+  
+   .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: var(--primary-text-decoration);
+    border-radius: 5px;
+    opacity: 0;
+  }
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  .value svg {
+    width: 30px;
+    align-items: center;
+  }
+  header {
+    display: inline;
+  }
+  main {
+    font-family: "Noto Sans", sans-serif;
+    color: var(--primary-text-decoration);
+    text-align: center;
+  }
+  main > h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 50px;
+  }
+  main > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  .square-hero {
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  .hero-text {
+    color: var(--primary-text-color)
+  }
+  main > a {
+    background-color: var(--primary-text-decoration);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  a {
+    font-family: "Jersey 25", sans-serif;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    }
+main > h3 {
+    margin-bottom: 70px;
+}
+.input-file {
+    max-width: 190px;
+    display: none;
+  }
+  
+  .labelFile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 190px;
+    border: 2px dashed var(--primary-text-decoration);
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-family: "Noto Sans", sans-serif;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cta {
+    display: flex;
+    padding: 11px 33px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+    background: var(--primary-text-decoration);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  
+  .cta:focus {
+    outline: none;
+  }
+  
+  .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 var(--primary-text-color);
+  }
+  
+  .cta .second {
+    transition: 0.5s;
+    margin-right: 0px;
+  }
+  
+  .cta:hover  .second {
+    transition: 0.5s;
+    margin-right: 45px;
+  }
+  
+  .span {
+    transform: skewX(15deg)
+  }
+  
+  .second {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  
+  .one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+  }
+  
+  .two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+  }
+  
+  .cta:hover .three {
+    animation: color_anim 1s infinite 0.2s;
+  }
+  
+  .cta:hover .one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+  }
+  
+  .cta:hover .two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+  }
+  
+  @keyframes color_anim {
+    0% {
+      fill: white;
+    }
+  
+    50% {
+      fill: var(--primary-text-decoration);
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
