@@ -73,5 +73,5 @@ Start the server
 For support, email balmuzdaq.studio@gmail.com
 
 
-https://drive.google.com/file/d/1qwVgzHQB0FF5ZLqAW_mw404Dr5nyklTI/view?usp=sharing
+https://drive.google.com/file/d/1Jhn07SfYbkywzeM1jl2nz7u2reln_B6M/view?usp=sharing
 
