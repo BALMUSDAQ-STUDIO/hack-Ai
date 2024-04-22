@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    --primary-text-color: #fff;
+    --primary-text-decoration : rgba(219, 49, 56, 1);
+    --primary-background-color: rgba(20, 20, 20, 1);
+    background-color: var(--primary-background-color);
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: var(--primary-background-color);
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    height: 75px;
+  }
+  .input > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .value {
+    letter-spacing: 7px;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 10px 0 10px;
+  }
+  
+  .value:not(:active):hover,
+  .value:focus {
+    background-color: #21262c;
+  }
+  
+  .value:focus,
+  .value:active {
+    background-color: #1a1f24;
+    outline: none;
+  }
+  
+   .value::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: var(--primary-text-decoration);
+    border-radius: 5px;
+    opacity: 0;
+  }
+  .value:focus::before,
+  .value:active::before {
+    opacity: 1;
+  }
+  .value svg {
+    width: 30px;
+    align-items: center;
+  }
+  header {
+    display: inline;
+  }
+  main {
+    font-family: "Noto Sans", sans-serif;
+    color: var(--primary-text-decoration);
+    text-align: center;
+  }
+  main > h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 50px;
+  }
+  main > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  .square-hero {
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  .hero-text {
+    color: var(--primary-text-color)
+  }
+  main > a {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  a {
+    font-family: "Jersey 25", sans-serif;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    }
+main > h3 {
+    margin-bottom: 70px;
+}
+.button {
+  background-color: #ffffff00;
+  color: #fff;
+  width: 20em;
+  height: 3em;
+  border: var(--primary-text-decoration) 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+
+.button:hover {
+  background-color: var(--primary-text-color);
+  color: var(--primary-text-decoration);
+  border: var(--primary-text-color) 0.2em solid;
+}
+
+.button svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.button:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em;
+}
