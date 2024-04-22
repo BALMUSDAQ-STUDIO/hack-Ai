@@ -7,7 +7,7 @@ A project for analyzing data and compiling a test based on it
 
 ## 
 We used the llama-cpp-python library and the lama model that microsoft and meta are working on. We also made a website based on the flask framework. We also started developing our own API for communicating with our model remotely. 
-For project you need download llama. Link on llama model: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
+For project you need download llama and create llm_chatbot/models/llama-2-7b-chat.Q4_K_M.gguf  directory in root directory. Link on llama model: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
 ![Logo](https://github.com/maksimkaprosuperhacker69/Fiztex-TgBot/blob/main/logo.png?raw=true)
 
 
