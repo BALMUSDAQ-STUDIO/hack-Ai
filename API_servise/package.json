@@ -1,0 +1,23 @@
+{
+  "name": "aihack-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello!\""
+  },
+  "keywords": [
+    "AI",
+    "Hackaton"
+  ],
+  "author": "Balmuzdack_studio (DSC)",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "connect-history-api-fallback": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "file-type": "^19.0.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  }
+}

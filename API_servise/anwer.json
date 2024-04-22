@@ -1,0 +1,44 @@
+{
+  "contest": [
+            {
+                "type": "input",
+                "text": "ASKAsJKSAKJSA"
+            },
+            {
+                "type": "ratio",
+                "text": "RATIO",
+                "variants": [
+                    {
+                        "name": "First",
+                        "key": "1"
+                    },
+                    {
+                        "name": "Second",
+                        "key": "2"
+                    },
+                    {
+                        "name": "Third",
+                        "key": "3"
+                    }
+                ]
+            },
+            {
+                "type": "checkbox",
+                "text": "CHKBOX",
+                "variants": [
+                    {
+                        "name": "First",
+                        "key": "1"
+                    },
+                    {
+                        "name": "Second",
+                        "key": "2"
+                    },
+                    {
+                        "name": "Third",
+                        "key": "3"
+                    }
+                ]
+            }
+        ]
+    }

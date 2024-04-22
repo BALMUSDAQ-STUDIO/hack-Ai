@@ -1,0 +1,15 @@
+{
+	"server": {
+		"ip": "127.0.0.1",
+		"port": "3000"
+	},
+	"max_ai_server_load": 100,
+	"api_key": "hdfdfdfhfd",
+	"ai_servers": {
+		"ai-1": {
+			"ip": "127.0.0.1",
+			"port": "5000",
+			"priority": 1
+		}
+	}
+}
