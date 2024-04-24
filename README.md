@@ -3,7 +3,7 @@
 
 A project for analyzing data and compiling a test based on it
 
-
+Video: https://drive.google.com/file/d/1hgY0aqyORKZg3F5hjGV9fKnecGYc4XCR/view?usp=sharing
 
 ## 
 We used the llama-cpp-python library and the lama model that microsoft and meta are working on. We also made a website based on the flask framework. We also started developing our own API for communicating with our model remotely. 
@@ -71,7 +71,3 @@ Start the server
 ## Support
 
 For support, email balmuzdaq.studio@gmail.com
-
-
-https://drive.google.com/file/d/1Jhn07SfYbkywzeM1jl2nz7u2reln_B6M/view?usp=sharing
-
