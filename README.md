@@ -1,4 +1,4 @@
-![Logo]([https://github.com/maksimkaprosuperhacker69/Fiztex-TgBot/blob/main/logo.png?raw=true](https://raw.githubusercontent.com/BALMUSDAQ-STUDIO/Balmuzdaq-logos/refs/heads/main/red_logo.png))
+![Logo](https://raw.githubusercontent.com/BALMUSDAQ-STUDIO/Balmuzdaq-logos/refs/heads/main/red_logo.png)
 # Hack Ai
 
 A project for analyzing data and compiling a test based on it
