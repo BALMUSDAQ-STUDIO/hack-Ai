@@ -1,46 +1,42 @@
-![Logo](https://raw.githubusercontent.com/BALMUSDAQ-STUDIO/Balmuzdaq-logos/refs/heads/main/red_logo.png)
+![Logo](https://raw.githubusercontent.com/BALMUZDAQ-STUDIO/Balmuzdaq-logos/refs/heads/main/red_logo.png)
+
 # Hack Ai
 
-A project for analyzing data and compiling a test based on it
+An AI tool that analyzes uploaded PDF documents and automatically generates test questions from them, built around a locally-run Llama model.
+
+🥉 **3rd place, $1,000 — Sharpist 2024 AI Hackathon** (Microsoft Developers Community Uzbekistan × IT Investments Center). Among 3,000+ participants from across the CIS, this was the only winning team not based in Uzbekistan.
 
 Video: https://drive.google.com/file/d/1hgY0aqyORKZg3F5hjGV9fKnecGYc4XCR/view?usp=sharing
 
-## 
-We used the llama-cpp-python library and the lama model that microsoft and meta are working on. We also made a website based on the flask framework. We also started developing our own API for communicating with our model remotely. 
-For project you need download llama and create llm_chatbot/models/llama-2-7b-chat.Q4_K_M.gguf  directory in root directory. Link on llama model: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
+## How it works
 
+The document is parsed, its text extracted, and passed to a locally hosted Llama model (via `llama-cpp-python`) which generates test questions. A Flask web app wraps the pipeline, and a lightweight remote API is also in progress for calling the model over the network.
+
+To run it, download the Llama model and place it at `llm_chatbot/models/llama-2-7b-chat.Q4_K_M.gguf`. Model link: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
 
 ## Authors
 
-- [@BALMUSDAQ STUDIO](https://github.com/BALMUSDAQ-STUDIO)
-
+- [@BALMUZDAQ-STUDIO](https://github.com/BALMUZDAQ-STUDIO)
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
-
+To run this project, you will need to add the following environment variable to your `.env` file:
 
 `SECRET_KEY`
-
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/BALMUSDAQ-STUDIO/hack-Ai
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
+  git clone https://github.com/BALMUZDAQ-STUDIO/hack-Ai
+  cd hack-Ai
 ```
 
 Install dependencies
 
 ```bash
-  pip install requirements.txt
+  pip install -r requirements.txt
   npm install
 ```
 
@@ -50,23 +46,10 @@ Start the server
   python app.py
 ```
 
-
-## Screenshots
-
-![App Screenshot](https://github.com/maksimkaprosuperhacker69/Fiztex-TgBot/blob/main/Desktop%20Screenshot%202024.04.22%20-%2005.27.40.74.png?raw=true)
-
-
-![App Screenshot](https://github.com/maksimkaprosuperhacker69/Fiztex-TgBot/blob/main/Desktop%20Screenshot%202024.04.22%20-%2005.22.20.32.png?raw=true)
-
-
-![App Screenshot](https://github.com/maksimkaprosuperhacker69/Fiztex-TgBot/blob/main/Desktop%20Screenshot%202024.04.22%20-%2005.22.28.63.png?raw=true)
-
-
-![App Screenshot](https://github.com/maksimkaprosuperhacker69/Fiztex-TgBot/blob/main/Desktop%20Screenshot%202024.04.22%20-%2005.22.39.18.png?raw=true)
-
-
-![App Screenshot](https://github.com/maksimkaprosuperhacker69/Fiztex-TgBot/blob/main/Desktop%20Screenshot%202024.04.22%20-%2005.55.51.83.png?raw=true)
-
 ## Support
 
 For support, email balmuzdaq.studio@gmail.com
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
