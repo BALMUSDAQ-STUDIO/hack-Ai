@@ -4,7 +4,7 @@
 
 An AI tool that analyzes uploaded PDF documents and automatically generates test questions from them, built around a locally-run Llama model.
 
-🥉 **3rd place, $1,000 — Sharpist 2024 AI Hackathon** (Microsoft Developers Community Uzbekistan × IT Investments Center). Among 3,000+ participants from across the CIS, this was the only winning team not based in Uzbekistan.
+**3rd place, $1,000 — Sharpist 2024 AI Hackathon** (Microsoft Developers Community Uzbekistan × IT Investments Center). Among 3,000+ participants from across the CIS, this was the only winning team not based in Uzbekistan.
 
 Video: https://drive.google.com/file/d/1hgY0aqyORKZg3F5hjGV9fKnecGYc4XCR/view?usp=sharing
 
